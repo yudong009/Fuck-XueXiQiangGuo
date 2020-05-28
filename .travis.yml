@@ -7,6 +7,6 @@ services:
 install:
 - wget -O fuck-xuexiqiangguo.zip https://github.com/fuck-xuexiqiangguo/Fuck-XueXiQiangGuo/raw/master/Fuck学习强国-linux.zip
 - unzip -q -d ./fuck-xuexiqiangguo/ fuck-xuexiqiangguo.zip
-- chmod +x fuck-xuexiqiangguo/Fuck学习强国
+- chmod +x fuck-xuexiqiangguo/Fuck*
 script:
 - xvfb-run fuck-xuexiqiangguo/Fuck学习强国 --headless --username=$user --passwd=$password
